@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+module.exports.write	/Users/laihongyu/nfsProject/roads/.autod.conf.js	/^module.exports = {$/;"	property	line:3
+module.exports.prefix	/Users/laihongyu/nfsProject/roads/.autod.conf.js	/^  write: true,$/;"	property	line:4
+module.exports.plugin	/Users/laihongyu/nfsProject/roads/.autod.conf.js	/^  prefix: '^',$/;"	property	line:5
+module.exports.test	/Users/laihongyu/nfsProject/roads/.autod.conf.js	/^  plugin: 'autod-egg',$/;"	property	line:6
+sudo	/Users/laihongyu/nfsProject/roads/.travis.yml	/^sudo: false$/;"	function	line:1
+language	/Users/laihongyu/nfsProject/roads/.travis.yml	/^language: node_js$/;"	function	line:2
+node_js	/Users/laihongyu/nfsProject/roads/.travis.yml	/^node_js:$/;"	function	line:3
+install	/Users/laihongyu/nfsProject/roads/.travis.yml	/^install:$/;"	function	line:5
+script	/Users/laihongyu/nfsProject/roads/.travis.yml	/^script:$/;"	function	line:7
+after_script	/Users/laihongyu/nfsProject/roads/.travis.yml	/^after_script:$/;"	function	line:9
+Format	/Users/laihongyu/nfsProject/roads/app/extend/application.js	/^Date.prototype.Format = function(fmt) { \/\/ author: meizz$/;"	function	line:4
+const.M+	/Users/laihongyu/nfsProject/roads/app/extend/application.js	/^  const o = {$/;"	property	line:5
+module.exports.bb	/Users/laihongyu/nfsProject/roads/app/extend/application.js	/^module.exports = {$/;"	property	line:73
+getGitFullVersion	/Users/laihongyu/nfsProject/roads/app/extend/application.js	/^  getGitFullVersion() {$/;"	function	line:87
+environment	/Users/laihongyu/nfsProject/roads/appveyor.yml	/^environment:$/;"	function	line:1
+matrix	/Users/laihongyu/nfsProject/roads/appveyor.yml	/^  matrix:$/;"	function	line:2
+install	/Users/laihongyu/nfsProject/roads/appveyor.yml	/^install:$/;"	function	line:5
+test_script	/Users/laihongyu/nfsProject/roads/appveyor.yml	/^test_script:$/;"	function	line:9
+build	/Users/laihongyu/nfsProject/roads/appveyor.yml	/^build: off$/;"	function	line:14
+exports.mongoose.enable	/Users/laihongyu/nfsProject/roads/config/plugin.js	/^exports.mongoose = {$/;"	property	line:5
+exports.mongoose.package	/Users/laihongyu/nfsProject/roads/config/plugin.js	/^  enable: true,$/;"	property	line:6
+exports.validate.enable	/Users/laihongyu/nfsProject/roads/config/plugin.js	/^exports.validate = {$/;"	property	line:10
+exports.validate.package	/Users/laihongyu/nfsProject/roads/config/plugin.js	/^  enable: true,$/;"	property	line:11
+exports.logrotator.enable	/Users/laihongyu/nfsProject/roads/config/plugin.js	/^exports.logrotator = {$/;"	property	line:15
+exports.logrotator.package	/Users/laihongyu/nfsProject/roads/config/plugin.js	/^  enable: true,$/;"	property	line:16
+config.static.prefix	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^  config.static = {$/;"	property	line:13
+config.static.dir	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^    prefix: '\/',$/;"	property	line:14
+config.multipart.fileSize	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^  config.multipart = {$/;"	property	line:18
+config.security.csrf	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^  config.security = {$/;"	property	line:22
+config.session.key	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^  config.session = {$/;"	property	line:29
+config.session.maxAge	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^    key: 'EGG_SESS',$/;"	property	line:30
+config.logrotator.maxDays	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^  config.logrotator = {$/;"	property	line:46
+config.mongoose.url	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^  config.mongoose = {$/;"	property	line:52
+config.mongoose.options	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^    url: 'mongodb:\/\/localhost:27017\/road',$/;"	property	line:53
+config.cluster.listen	/Users/laihongyu/nfsProject/roads/config/config.default.js	/^  config.cluster = {$/;"	property	line:57
+html, body, :global(#root)	/Users/laihongyu/nfsProject/roads/src/index.css	/^html, body, :global(#root) {$/;"	function	line:2
+componentWillMount	/Users/laihongyu/nfsProject/roads/src/router.js	/^  componentWillMount() {$/;"	function	line:11
+componentWillUnmount	/Users/laihongyu/nfsProject/roads/src/router.js	/^  componentWillUnmount() {$/;"	function	line:14
+render	/Users/laihongyu/nfsProject/roads/src/router.js	/^  render() {$/;"	function	line:18
+RouterConfig	/Users/laihongyu/nfsProject/roads/src/router.js	/^function RouterConfig({history, app}) {$/;"	function	line:28
+RouterConfig	/Users/laihongyu/nfsProject/roads/src/router.js	/^function RouterConfig({history, app}) {$/;"	function	line:28
+constructor	/Users/laihongyu/nfsProject/roads/src/routes/common.js	/^  constructor(props) {$/;"	function	line:5
+componentDidMount	/Users/laihongyu/nfsProject/roads/src/routes/common.js	/^  componentDidMount() {$/;"	function	line:9
+convertTouchEventToJSON	/Users/laihongyu/nfsProject/roads/src/routes/common.js	/^  convertTouchEventToJSON(e) {$/;"	function	line:57
+render	/Users/laihongyu/nfsProject/roads/src/routes/common.js	/^  render() {$/;"	function	line:74

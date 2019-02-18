@@ -1,0 +1,73 @@
+{
+  "name": "roads",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.6.4",
+    "axios": "^0.18.0",
+    "dva": "^2.3.1",
+    "dva-loading": "^2.0.3",
+    "egg": "^2.8.1",
+    "egg-logrotator": "^3.0.3",
+    "egg-mongoose": "^2.2.0",
+    "egg-scripts": "^2.5.0",
+    "egg-validate": "^1.0.0",
+    "formidable": "^1.1.1",
+    "nprogress": "^0.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.6.5",
+    "egg-bin": "^4.3.5",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.14.0",
+    "eslint": "^4.14.0",
+    "eslint-config-egg": "^6.0.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --workers=1 --daemon --title=egg-server-roads",
+    "docker": "EGG_SERVER_ENV=prod egg-bin dev",
+    "stop": "egg-scripts stop --title=egg-server-roads",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "egg-bin test",
+    "testdy": "egg-bin test -g full.test.js",
+    "testPhoneCode": "egg-bin test -g phoneCode.test.js",
+    "testT": "egg-bin test -g transferTask.test.js",
+    "cleandb": "egg-bin test -g clean.test.js",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod",
+    "cstart": "PORT=3000 roadhog server",
+    "build": "roadhog build"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}
